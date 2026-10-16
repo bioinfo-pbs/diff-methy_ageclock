@@ -5,7 +5,7 @@ Pipeline analisis DNA methylation menggunakan tiga script R untuk analisis utama
 ## File dan Fungsinya
 
 - metadata_template_cust.xlsx: Template metadata yang diberikan kepada customer untuk diisi.
-- metadata.csv: Metadata sampel yang digunakan oleh pipeline analisis.
+- metadata.csv: Metadata sampel yang siap digunakan oleh pipeline analisis.
 - 01_qc_preprocessing.R: Quality control dan preprocessing data methylation.
 - 02_differential_methylation.R: Analisis DMP dan DMR antara kelompok Control dan Case.
 - 03_epigenetic_age.R: Estimasi epigenetic age menggunakan Horvath Pan-Tissue Clock.
