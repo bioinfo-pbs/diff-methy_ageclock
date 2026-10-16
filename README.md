@@ -28,5 +28,5 @@ Struktur folder:
     └── pandu-slogan.png
 
 Penting:<br>
-metadata_template.xlsx adalah template untuk customer, bukan file yang dibaca langsung oleh script analisis. Data yang sudah diisi perlu disiapkan sebagai metadata.csv dengan nama kolom yang sesuai.<br>
-Ketiga script R menggunakan path file yang ditetapkan di dalam kode. Pastikan idat_dir dan metadata_file mengarah ke lokasi data yang benar.
+- metadata_template.xlsx adalah template untuk customer. Data yang sudah diisi perlu disiapkan sebagai metadata.csv dengan nama kolom yang sesuai.<br>
+- Ketiga script R menggunakan path file yang ditetapkan di dalam kode. Pastikan idat_dir dan metadata_file mengarah ke lokasi data yang benar.
