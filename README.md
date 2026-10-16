@@ -27,6 +27,6 @@ Struktur folder:
     ├── pandu-logo.png
     └── pandu-slogan.png
 
-Penting:<br>
+Penting:
 - metadata_template.xlsx adalah template untuk customer. Data yang sudah diisi perlu disiapkan sebagai metadata.csv dengan nama kolom yang sesuai.<br>
 - Ketiga script R menggunakan path file yang ditetapkan di dalam kode. Pastikan idat_dir dan metadata_file mengarah ke lokasi data yang benar.
