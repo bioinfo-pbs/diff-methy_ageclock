@@ -1,9 +1,9 @@
-# DNA Methylation Analysis Pipeline
+Note: Script ini masih di-design hanya untuk 8 sampel, lebih dari itu perlu penyesuaian.
 
+# DNA Methylation Analysis Pipeline
 Pipeline analisis DNA methylation menggunakan tiga script R untuk analisis utama dan satu script Python untuk membuat laporan HTML.
 
 ## File dan Fungsinya
-
 - metadata_template_cust.xlsx: Template metadata yang diberikan kepada customer untuk diisi.
 - metadata.csv: Metadata sampel yang siap digunakan oleh pipeline analisis.
 - 01_qc_preprocessing.R: Quality control dan preprocessing data methylation.
@@ -13,7 +13,6 @@ Pipeline analisis DNA methylation menggunakan tiga script R untuk analisis utama
 - pandu-logo.png dan pandu-slogan.png: Gambar yang diperlukan untuk laporan HTML.
 
 ## Penempatan File
-
 Ketiga script R, metadata.csv, script Python, dan kedua gambar harus disimpan dalam folder kerja yang sama.
 
 Struktur folder:
